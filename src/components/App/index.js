@@ -6,6 +6,7 @@ import Sobre from '../Sobre'
 import Contato from '../Contato'
 
 function App() {
+    // document.title = "Teste"
     return (
         <div>
             <Route exact path="/" component={Home}></Route>
