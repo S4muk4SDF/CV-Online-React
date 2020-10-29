@@ -1,20 +1,20 @@
 .Card {
-    margin: 10px;
     background-color: #cddbe4;
+    margin: 10px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
     border-radius: 10px;
-    height: 48px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+}
+.Card a{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgb(39, 171, 189);
 }
 
-.Card a{
-    margin: 5px;
-    font-size: 1.3rem;
-    background-color: #28abb9;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
+.Card a:hover{
+    text-decoration: none;
+    color: white;
 }
 
 .instagram:hover {
@@ -31,4 +31,8 @@
 
 .github:hover {
     background-color: rgb(196, 67, 16);
+}
+
+@media only screen and (max-width: 600px) {
+
 }

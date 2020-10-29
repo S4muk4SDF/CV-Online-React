@@ -18,7 +18,6 @@ function Skills() {
                 <SkillsTemplate titulo="Jest" />
                 <SkillsTemplate titulo="React" />
                 <SkillsTemplate titulo="Postgre" />
-                
             </div>
         </main>
     )

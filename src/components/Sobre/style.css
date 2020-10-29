@@ -69,3 +69,25 @@
     margin-top: 5px;
 }
 
+@media only screen and (max-width: 600px) {
+    .conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .info_Perfil {
+        width: 350px;
+    }
+
+    .info_Perfil h1 {
+        font-size: 1.5rem;
+    }
+
+    .info_Perfil p {
+        font-size: 1rem;
+    }
+
+    .info_Perfil li {
+        font-size: 1rem;
+    }
+}

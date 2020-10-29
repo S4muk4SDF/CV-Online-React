@@ -8,3 +8,7 @@
 body {
   background-color: #ebebeb;
 }
+
+a {
+  list-style-type: none;
+}

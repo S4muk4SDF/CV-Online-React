@@ -13,6 +13,7 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
+    color: white;
     /* background-color: black; */
 }
 
@@ -21,4 +22,14 @@
     background-color: #9ba4b4;
     padding: 5px;
     border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .redes_socias {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
 }
