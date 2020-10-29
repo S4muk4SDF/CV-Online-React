@@ -1,0 +1,16 @@
+.titulo_Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* background-color: black; */
+}
+
+.titulo_Home h1{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: #9ba4b4;
+    padding: 5px;
+    border-radius: 10px;
+}

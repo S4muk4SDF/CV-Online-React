@@ -5,7 +5,6 @@ import './style.css';
 import Navbar from '../Navbar';
 import Card from './Card';
 
-
 function Contato() {
     return (
         <div>
