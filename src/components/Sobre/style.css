@@ -24,9 +24,33 @@
     justify-content: center;
     align-items: center;
 }
-  
+
+.img_Perfil_Dark {
+    background-color: #495464;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .info_Perfil {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: #2e84c2;
+    width: 1100px;
+    height: auto;
+    margin: 20px;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+.info_Perfil_Dark {
+    background-color: #495464;
     width: 1100px;
     height: auto;
     margin: 20px;
@@ -61,6 +85,18 @@
     color: white;
 }
 
+.info_Perfil_Dark h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 10px;
+    background-color: #bbbfca;
+    margin: 5px;
+    width: fit-content;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+}
+
 .info_Perfil li {
     color: white;
     text-transform: uppercase;
@@ -69,7 +105,65 @@
     margin-top: 5px;
 }
 
+.temas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.temas button{
+    margin: 5px;
+}
+
+.texto {
+    width: 900px;
+}
+
+.texto p {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: justify;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+}
+
+.skills li{
+    list-style-type: none;
+    margin: 10px;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 @media only screen and (max-width: 600px) {
+    .skills {
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .texto {
+        width: 300px;
+    }
+    
+    .texto p {
+        font-size: 1rem;
+    }
+
     .conteudo {
         flex-direction: column;
         align-items: center;
