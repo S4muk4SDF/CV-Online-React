@@ -7,6 +7,7 @@ import Card from './Card';
 
 function Contato() {
     return (
+        document.title = "Samuel Dias - Contatos",
         <div>
            <Navbar /> 
 

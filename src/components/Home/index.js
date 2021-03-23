@@ -5,6 +5,7 @@ import './style.css'
 
 function Home() {
     return (
+        document.title = "Samuel Dias - Home",
         <div>
            <Navbar /> 
 

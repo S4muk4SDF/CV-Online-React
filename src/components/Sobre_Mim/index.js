@@ -33,7 +33,9 @@ class Sobre extends Component {
 
     render() {
         return (
+            document.title = "Samuel Dias - Sobre Mim",
             <div>
+
                 <Navbar />
 
                 <div className="temas">
@@ -67,7 +69,7 @@ class Sobre extends Component {
 
                         <h1>Interesses</h1>
 
-                        <div className="texto">
+                        <div className="texto_Interesses">
                             <p>Além da paixão pelas diversas tecnologias existentes, também gosto muito de games, filmes, séries, músicas, etc... Uma outra coisa que gosto bastante também, é de tentar achar uma forma de resolver problemas de maneira fácil e rápida, e sempre estou tentando aplicar isso durante meu dia.</p>
                         </div>
 

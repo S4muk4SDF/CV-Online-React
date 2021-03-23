@@ -1,9 +1,3 @@
-.img_Perfil img{
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-}
-
 .conteudo {
     display: flex;
     flex-direction: row;
@@ -23,6 +17,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.img_Perfil img{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
 }
 
 .img_Perfil_Dark {
@@ -149,7 +149,7 @@
     flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .skills {
         align-items: center;
         flex-direction: column;
@@ -183,5 +183,46 @@
 
     .info_Perfil li {
         font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1500px) {
+    .img_Perfil img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .info_Perfil {
+        width: 800px;
+    }
+
+    .texto_Sobre_Mim {
+        width: 600px;
+    }
+    
+    .info_Perfil li {
+        font-size: 1rem;
+    }
+
+    .info_Perfil h1 {
+        font-size: 1.5rem;
+    }
+
+    .info_Perfil p {
+        font-size: 1rem;
+    }
+
+    .texto_Interesses {
+        width: 600px;
+    }
+    
+    .texto_Interesses p {
+        font-size: 1rem;
+    }
+
+    .skills {
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
     }
 }
